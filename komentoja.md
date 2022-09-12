@@ -1,17 +1,18 @@
-Komentoja virtuaaliympäristöihin yms.
-Tee virtuaaliympäristö: python -m venv venv
+**Komentoja virtuaaliympäristöihin yms.**
 
-Aktivoi virtuaaliympäristö joko VS Codesta tai komennolla:
+* Tee virtuaaliympäristö: python -m venv venv
 
-source venv/bin/activate (Linux tai Mac)
-venv\Scripts\Activate.ps1 (Windows)
-Päivitä pip: pip install -U pip
+* Aktivoi virtuaaliympäristö joko VS Codesta tai komennolla:
 
-Avaa Python shell: python
+  * source venv/bin/activate (Linux tai Mac)
+  * venv\Scripts\Activate.ps1 (Windows)
+* Päivitä pip: pip install -U pip
 
-Pois pääsee joko Ctrl+D tai exit()
-Asenna ipython: pip install ipython
+* Avaa Python shell: python
 
-Aja ipython: ipython
+* Pois pääsee joko Ctrl+D tai exit()
+* Asenna ipython: pip install ipython
 
-Pois pääsee joko Ctrl+D tai exit()
+* Aja ipython: ipython
+
+* Pois pääsee joko Ctrl+D tai exit()
