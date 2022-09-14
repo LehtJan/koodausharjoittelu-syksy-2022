@@ -1,4 +1,4 @@
-**Komentoja virtuaaliympäristöihin yms.**
+# Komentoja virtuaaliympäristöihin yms.
 
 * Tee virtuaaliympäristö: python -m venv venv
 
@@ -6,6 +6,7 @@
 
   * source venv/bin/activate (Linux tai Mac)
   * venv\Scripts\Activate.ps1 (Windows)
+  
 * Päivitä pip: pip install -U pip
 
 * Avaa Python shell: python
