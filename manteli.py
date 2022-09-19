@@ -2,36 +2,36 @@ import sys
 
 import pygame
 
-# pygame.init()
+pygame.init()
 
-# width = 320
-# height = 240
-# size = (width, height)  # tuple (monikko), immutable (muuttumaton)
+width = 320
+height = 240
+size = (width, height)  # tuple (monikko), immutable (muuttumaton)
 
-# speed = [10, 6]
-# black = (0, 0, 0)  # Red, Green, Blue  0...255
+speed = [10, 6]
+black = (0, 0, 0)  # Red, Green, Blue  0...255
 
-# screen = pygame.display.set_mode(size)
+screen = pygame.display.set_mode(size)
 
-# ball = pygame.image.load("intro_ball.gif")
-# ballrect = ball.get_rect()
+ball = pygame.image.load("intro_ball.gif")
+ballrect = ball.get_rect()
 
-# clock = pygame.time.Clock()
+clock = pygame.time.Clock()
 
-# while 1:
-#     for event in pygame.event.get():
-#         if event.type == pygame.QUIT: sys.exit()
+while 1:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT: sys.exit()
 
-#     ballrect = ballrect.move(speed)
-#     if ballrect.left < 0 or ballrect.right > width:
-#         speed[0] = -speed[0]
-#     if ballrect.top < 0 or ballrect.bottom > height:
-#         speed[1] = -speed[1]
+    ballrect = ballrect.move(speed)
+    if ballrect.left < 0 or ballrect.right > width:
+        speed[0] = -speed[0]
+    if ballrect.top < 0 or ballrect.bottom > height:
+        speed[1] = -speed[1]
 
-#     screen.fill(black)
-#     screen.blit(ball, ballrect)
-#     pygame.display.flip()
-#     clock.tick(30)
+    screen.fill(black)
+    screen.blit(ball, ballrect)
+    pygame.display.flip()
+    clock.tick(30)
 
 """
     for x in range(0, width):
